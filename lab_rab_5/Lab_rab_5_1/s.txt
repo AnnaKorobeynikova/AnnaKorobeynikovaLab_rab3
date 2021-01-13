@@ -1,0 +1,13 @@
+create table users
+(    id int not null PRIMARY AUTO_INCREMENT,
+    name varchar(50) not null,
+    email varchar(50) not null UNIQUE,
+    password varchar(50) not null
+);
+insert into users (name, email, password) values ('pepa', 'anastasik@gmail.com', 'pepepe');
+insert into users (name, email, password) values ('suslik', 'meloch@mail.ru', 'firfir');
+insert into users (name, email, password) values ('tralya', 'trololyalya@email.ru', 'lolylo');
+insert into users (name, email, password) values ('annakorob', 'anna.korobeinik1@mail.ru', 'ltelfh');
+insert into users (name, email, password) values ('shizar', 'cepeli@yandex.ru', 'jojojo');
+insert into users (name, email, password) values ('hihihi', 'heyho@yandex.ru', 'jfftrg');
+

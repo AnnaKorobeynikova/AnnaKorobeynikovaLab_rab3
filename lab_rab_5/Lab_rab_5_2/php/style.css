@@ -1,0 +1,19 @@
+input {
+    height: 40px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.hide {
+    font-size: 0;
+}
+
+.error {
+    color: #e089d9;
+}
+
+.my_border {
+    border: 1px solid #e089d9;
+}
